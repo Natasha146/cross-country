@@ -1,19 +1,8 @@
-.navbar {
-  min-height: 80px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+body{
+  background-color: navy;
 }
-
 .navbar.bg-body-tertiary {
   background-color: navy !important;
-}
-
-.navbar-brand {
-  display: flex;
-  align-items: center;
-  color: white !important;
-  padding: 0;
-  margin: 0;
 }
 
 .navbar-brand img {
@@ -22,25 +11,16 @@
   display: block;
   object-fit: contain;
 }
-
-::selection {
-  background: transparent;
-  color: inherit;
-}
-
 .btn {
-  color: #c9a227 !important;
+ color: #f1c708 !important;
   border: none !important;
   border-radius: 8px;
   padding: 0.5rem 1rem;
 }
-
-.btn, .btn * {
-  font-weight: 700;
-}
-
 .btn:hover {
-  background-color: #d4af37 !important;
+  background-color: #e6c71b !important;
   color: #000000 !important;
 }
+
+
 

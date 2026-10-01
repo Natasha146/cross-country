@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="info-page">
+    <nav class="navbar sticky-top bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <img src="img/FreeholdHighSchool.png" alt="Freehold High School Logo">
+                <button type="button" class="btn btn-link" onclick="window.location.href='info.html'">info</button>
+                <button type="button" class="btn btn-link" onclick="window.location.href='index.html'">Home</button>
+                <button type="button" class="btn btn-link">Calender</button>
+                <button type="button" class="btn btn-link" onclick="window.location.href='signup.html'">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="info-container">
+        <section class="info-card">
+            <h1>Sign Up for Cross Country</h1>
+            <p>Join the team and get ready for a season of training, teamwork, and competition.</p>
+
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="grade" class="form-label">Grade</label>
+                    <input type="text" class="form-control" id="grade" placeholder="Example: 11">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
