@@ -12,7 +12,7 @@ body{
   object-fit: contain;
 }
 .btn {
- color: #f1c708 !important;
+ color: #e2b900 !important;
   border: none !important;
   border-radius: 8px;
   padding: 0.5rem 1rem;
@@ -22,5 +22,61 @@ body{
   color: #000000 !important;
 }
 
+.hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px 0;
+}
+
+.hero-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+}
+
+body.info-page {
+  background-color: navy;
+  min-height: 100vh;
+}
+
+.info-container {
+  padding: 40px 20px;
+}
+
+.info-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  color: #111111;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  padding: 2rem 2.5rem;
+}
+
+.info-card h1,
+.info-card h2,
+.info-card h3 {
+  color: navy;
+}
+
+.info-card h1:first-of-type,
+.info-card h2,
+.info-card h3 {
+  display: inline-block;
+  background: #f4d03f;
+  color: navy;
+  font-weight: 900;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1rem;
+}
+
+.info-card ul {
+  margin-bottom: 1.5rem;
+}
 
 
